@@ -61,7 +61,7 @@ def logopsb(z):
 
 
 def logo():
-    ctypes.windll.kernel32.SetConsoleTitleW(f"[ tempmail ] By CYFER")
+    #ctypes.windll.kernel32.SetConsoleTitleW(f"[ tempmail ] By CYFER")
     System.Clear()
     Write.Print(f"""
 ████████╗███████╗███╗   ███╗██████╗ ███╗   ███╗ █████╗ ██╗██╗     

@@ -90,7 +90,7 @@ def ver_check():
         vernow = "None"
     while True:
         try:
-            mainver = requests.get("https://raw.githubusercontent.com/rxvxrsx/tempmail/refs/heads/main/.version?token=GHSAT0AAAAAACYFSSNMZXXFDKJH7KBFZCVQZX272CQ").text
+            mainver = requests.get("https://raw.githubusercontent.com/rxvxrsx/tempmail/main/.version?token=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").text
             break
         except:
             psb(Fore.LIGHTRED_EX + f"\n{Fore.LIGHTWHITE_EX}[{Fore.LIGHTRED_EX}!{Fore.LIGHTWHITE_EX}]{Fore.LIGHTRED_EX} Please Connect To The Internet..."+ Fore.RESET)

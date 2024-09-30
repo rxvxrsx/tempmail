@@ -98,7 +98,7 @@ def ver_check():
     if not (vernow == mainver):
         psb(Fore.LIGHTGREEN_EX + f"\n{Fore.LIGHTWHITE_EX}[{Fore.LIGHTGREEN_EX}*{Fore.LIGHTWHITE_EX}]{Fore.LIGHTGREEN_EX} Tool Update Found..."+ Fore.RESET)
         psb(Fore.LIGHTGREEN_EX + f"{Fore.LIGHTWHITE_EX}[{Fore.LIGHTGREEN_EX}*{Fore.LIGHTWHITE_EX}]{Fore.LIGHTGREEN_EX} Updating Tool..."+ Fore.RESET)
-        os.system("cd .. && rm -r tempmail && git clone https://github.com/rxvxrsx/tempmail > /dev/null 2>&1")
+        os.system("cd .. && rm -rf tempmail && git clone https://github.com/rxvxrsx/tempmail > /dev/null 2>&1")
         psb(Fore.LIGHTGREEN_EX + f"\n{Fore.LIGHTWHITE_EX}[{Fore.LIGHTGREEN_EX}*{Fore.LIGHTWHITE_EX}]{Fore.LIGHTGREEN_EX} Tool Update Complete..."+ Fore.RESET)
         psb(Fore.LIGHTGREEN_EX + f"{Fore.LIGHTWHITE_EX}[{Fore.LIGHTGREEN_EX}*{Fore.LIGHTWHITE_EX}]{Fore.LIGHTGREEN_EX} Starting Tool..."+ Fore.RESET)
         os.system("cd .. && cd tempmail && python tempmail.py"+ Fore.RESET)

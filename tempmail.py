@@ -17,11 +17,6 @@ from pystyle import Write, System, Colors, Colorate, Anime
 from colorama import Fore, Style, init
 init()
 
-
-light_green = Fore.LIGHTGREEN_EX
-light_white = Fore.LIGHTWHITE_EX
-reset = Fore.RESET
-
 class Output:
     RESET = Fore.RESET
     BLACK = Fore.BLACK
